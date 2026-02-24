@@ -1,34 +1,33 @@
 /* === sticky grid === */
 
 .property-brochure {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2px;
-    padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2px;
+  padding: 50px;
 }
 .sticky-grid {
-    position: relative;
+  position: relative;
 }
 .property-brochure-sticky-block {
-    position: sticky;
-    top: 20px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+  position: sticky;
+  top: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .normal-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 .property-brochure-block {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    height: 80vh;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  height: 80vh;
+  align-items: center;
 }
 
 .property-brochure-block img {
@@ -42,4 +41,37 @@
 
 .property-brochure-block img:hover {
   transform: translateY(-5px);
+}
+
+/* ============================= */
+/* 📱 Mobile Fix */
+/* ============================= */
+
+@media (max-width: 991px) {
+  .property-brochure {
+    display: block; /* remove grid */
+    padding: 20px 0;
+  }
+
+  /* Hide the sticky title completely */
+  .sticky-grid,
+  .property-brochure-sticky-block {
+    display: none;
+  }
+
+  .normal-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* 👈 subtle gap between blocks */
+    padding: 0 15px; /* slight side spacing */
+  }
+
+  .property-brochure-block {
+    height: auto;
+  }
+
+  .property-brochure-block img {
+    border-radius: 8px; /* softer than desktop */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25); /* subtle depth on black */
+  }
 }
