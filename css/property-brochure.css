@@ -1,0 +1,27 @@
+/* .property-brochure {
+  padding: 80px 20px;
+  background-color: #f8f8f8;
+}
+
+.property-brochure ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.property-brochure ul li img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.property-brochure ul li img:hover {
+  transform: translateY(-5px);
+} */

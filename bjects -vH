@@ -1,0 +1,47 @@
+[33mcommit a9afeece2a336d218128f6ee9317b2a123449acd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Parham Baradaran Noveiry <104489030+bnparham@users.noreply.github.com>
+Date:   Mon Feb 23 15:20:15 2026 +0330
+
+    fix meta tags
+
+[33mcommit f87f09fd88854ed34742293d06166eafc4ca6032[m
+Author: Parham Baradaran Noveiry <104489030+bnparham@users.noreply.github.com>
+Date:   Mon Feb 23 15:18:20 2026 +0330
+
+    fix all pages
+
+[33mcommit a02493577a00a092c052f69e4d5f1f334e9b64d7[m
+Author: Parham Baradaran Noveiry <104489030+bnparham@users.noreply.github.com>
+Date:   Mon Feb 23 15:10:39 2026 +0330
+
+    rmv redundant zip file !
+
+[33mcommit 0a17d51f63857240c484325747b144e26fc579c0[m
+Author: Parham Baradaran Noveiry <104489030+bnparham@users.noreply.github.com>
+Date:   Mon Feb 23 15:02:19 2026 +0330
+
+    add new logo
+
+[33mcommit 5a357edd18c91919fa70c76da1c7b4241e9e52a3[m
+Author: Parham Baradaran Noveiry <104489030+bnparham@users.noreply.github.com>
+Date:   Mon Feb 23 14:31:45 2026 +0330
+
+    fix page navigation text
+
+[33mcommit bd1b162abe740177d8c6f8276c40dac4a3e53e53[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Kiarash Gerayeli <99744777+KiarashGerayeli@users.noreply.github.com>
+Date:   Mon Feb 23 14:07:07 2026 +0330
+
+    updare overview footer
+
+[33mcommit 74ff3e680de0a6349e4670633ee1e264a2c00f6b[m
+Author: Kiarash Gerayeli <99744777+KiarashGerayeli@users.noreply.github.com>
+Date:   Mon Feb 23 02:03:15 2026 +0330
+
+    update footer details
+
+[33mcommit 59569348ea6d09fa81e3f75fd57a5287aa5b0ddf[m
+Author: Parham Baradaran Noveiry <104489030+bnparham@users.noreply.github.com>
+Date:   Sun Feb 22 17:20:07 2026 +0330
+
+    remove any image and video from folder !

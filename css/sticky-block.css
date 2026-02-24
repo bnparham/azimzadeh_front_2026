@@ -1,0 +1,45 @@
+/* === sticky grid === */
+
+.property-brochure {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2px;
+    padding: 50px;
+}
+.sticky-grid {
+    position: relative;
+}
+.property-brochure-sticky-block {
+    position: sticky;
+    top: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.normal-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.property-brochure-block {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    height: 80vh;
+    align-items: center;
+}
+
+.property-brochure-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.property-brochure-block img:hover {
+  transform: translateY(-5px);
+}
